@@ -273,8 +273,8 @@ def generate_dataset(num_employees=500, year=2024):
     df = df.sort_values(by=['Employee_ID', 'Date']).reset_index(drop=True)
     df.insert(0, 'Transaction_ID', [f"TXN{i:06d}" for i in range(1, len(df) + 1)])
     
-    os.makedirs("C:/Users/AdminHK/.gemini/antigravity/scratch/SpendSense-AI/data/raw", exist_ok=True)
-    raw_path = "C:/Users/AdminHK/.gemini/antigravity/scratch/SpendSense-AI/data/raw/raw_transaction_data.csv"
+    os.makedirs("C:/Users/AdminHK/SpendSense-AI/data/raw", exist_ok=True)
+    raw_path = "C:/Users/AdminHK/SpendSense-AI/data/raw/raw_transaction_data.csv"
     df.to_csv(raw_path, index=False)
     print(f"Raw transaction dataset successfully generated and saved to {raw_path}!")
     print(f"Total Transactions generated: {len(df)}")
