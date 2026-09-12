@@ -164,27 +164,10 @@ Reducing the top 10% of leakage transactions by half increases the average emplo
 
 ---
 
-## 11. How to Run the Project
-1. Clone the repository to your local workspace.
-2. Install Python dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the analysis script to generate processed data and charts:
-   ```bash
-   python notebooks/run_analysis.py
-   ```
-4. Build the Jupyter Notebook:
-   ```bash
-   python notebooks/generate_notebook.py
-   ```
-5. Run the PDF generator script to compile the final report:
-   ```bash
-   python reports/generate_pdf.py
-   ```
-6. Open `powerbi/SpendSense_AI.pbix` in Power BI Desktop, change the data source to the generated `cleaned_transaction_data.csv`, and click **Refresh**.
+
+
 
 ---
 
-## 12. License
+## License
 Distributed under the MIT License. See [LICENSE](LICENSE) for more details.
