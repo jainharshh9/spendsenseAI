@@ -20,7 +20,7 @@
 
 ---
 
-## 1. Project Overview
+## 1.Project Overview
 **SpendSense AI** is an end-to-end Data Analytics portfolio project designed to identify hidden "financial leakages"—small, frequent, non-essential expenditures (impulse buys, streaming subscriptions, weekend splurges) that silently deplete the monthly savings of salaried corporate professionals. 
 
 The project applies a full data pipeline: **Synthetic Data Generation ➔ Exploratory Data Analysis (Python) ➔ Machine Learning classification ➔ Business Analytics (SQL) ➔ Dynamic Data Visualizations (Power BI) ➔ Actionable Business Insights.**
