@@ -12,13 +12,7 @@ The dashboard is designed to provide actionable business and financial insights 
 
 ---
 
-## 🔗 Data Connection & Refresh Instructions
-To connect the dashboard to the processed dataset on your local machine:
-1. Open **Power BI Desktop**.
-2. Click on **Transform Data** (Home Tab) -> **Data Source Settings**.
-3. Select the file source and click **Change Source**.
-4. Browse and select the processed dataset: `SpendSense-AI/data/processed/cleaned_transaction_data.csv`.
-5. Click **Close & Apply** to refresh and reload the data model.
+
 
 ---
 
