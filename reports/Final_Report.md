@@ -1,8 +1,5 @@
 # SpendSense AI: Financial Leakage Detection for Corporate Professionals
-## Executive Business & Technical Analysis Report
-**Author:** Portfolio Project (Data & Business Analyst)  
-**Date:** July 2026  
-**Status:** Complete  
+
 
 ---
 
